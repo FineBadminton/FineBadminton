@@ -82,7 +82,7 @@ body {
   margin-bottom: 1rem; /* Spacing between layer blocks */
 }
 
-/* Action Primitives Layer */
+/* Foundational Actions Level */
 .action-primitives-layer .layer-title {
     background-color: #e0f2fe; /* sky-100 */
     color: #0c4a6e; /* sky-800 */
@@ -102,7 +102,7 @@ body {
     background-color: #f0fdfa; /* teal-50 */
 }
 
-/* Decision Evaluation Layer */
+/* Decision Evaluation Level */
 .decision-evaluation-layer .layer-title {
     background-color: #fef3c7; /* amber-100 */
     color: #78350f; /* amber-800 */

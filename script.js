@@ -453,7 +453,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Layer 1: Action Primitives
         content += `<div class="mb-3 layer-container action-primitives-layer">`;
-        content += `<p class="layer-title text-sky-600">Action Primitives Layer</p>`;
+        content += `<p class="layer-title text-sky-600">Foundational Actions Level</p>`;
         content += `<div class="layer-content">`;
         content += `<p class="info-item"><span class="info-label">Hit Type:</span> ${hit.hit_type || 'N/A'}</p>`;
         content += `<p class="info-item"><span class="info-label">Subtype:</span> ${hit.subtype ? hit.subtype.join(', ') : 'N/A'}</p>`;
@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Layer 2: Semantics
         content += `<div class="mb-3 layer-container semantics-layer">`;
-        content += `<p class="layer-title text-teal-600">Tactical Semantics Layer</p>`;
+        content += `<p class="layer-title text-teal-600">Tactical Semantics Level</p>`;
         content += `<div class="layer-content">`;
         content += `<p class="info-item"><span class="info-label">Player Actions:</span> ${hit.player_actions ? hit.player_actions.join(', ') : 'N/A'}</p>`;
         content += `<p class="info-item"><span class="info-label">Shot Characteristics:</span> ${hit.shot_characteristics ? hit.shot_characteristics.join(', ') : 'N/A'}</p>`;
@@ -477,7 +477,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // Layer 3: Decision Evaluation
         content += `<div class="layer-container decision-evaluation-layer">`;
-        content += `<p class="layer-title text-amber-600">Decision Evaluation Layer</p>`;
+        content += `<p class="layer-title text-amber-600">Decision Evaluation Level</p>`;
         content += `<div class="layer-content">`;
         content += `<p class="info-item"><span class="info-label">Comment:</span> ${hit.comment || 'N/A'}</p>`;
         content += `<div class="info-item flex items-center"><span class="info-label mr-2">Quality:</span> ${renderQualityStars(hit.quality)}</div>`;
